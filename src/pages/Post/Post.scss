@@ -1,0 +1,24 @@
+.Post {
+  text-align: center;
+
+  h3 {
+    margin: 1em;
+  }
+
+  img {
+    max-width: 60rem;
+  }
+
+  &__tags {
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin-right: 1em;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
