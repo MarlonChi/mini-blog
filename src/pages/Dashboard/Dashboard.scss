@@ -1,0 +1,59 @@
+.Dashboard {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 2.2em;
+    margin: 0.5em auto;
+  }
+
+  p {
+    color: #aaa;
+    margin-bottom: 1em;
+  }
+
+  &__noPosts {
+    text-align: center;
+
+    p {
+      margin-bottom: 1.5em;
+    }
+
+    a {
+      padding: 1rem 2.5rem;
+    }
+  }
+}
+
+.Table {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  width: 80%;
+  padding: 1rem;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #eee;
+    width: 80%;
+    padding: 1rem;
+
+    p {
+      color: #000;
+    }
+
+    button,
+    a {
+      margin: 0 0.5rem;
+      width: 10rem;
+      text-align: center;
+      font-size: 0.7em;
+    }
+  }
+}
